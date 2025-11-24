@@ -71,7 +71,6 @@ While SAM 3 shows impressive performance on natural images, we observed several 
 <div align="center">
   <img src="assets/MoNuSeg_example.png" alt="Semantic Discrimination" width="700"/>
 </div>
-......
 
 
 These limitations motivate the development of MedSAM-3, which incorporates medical domain knowledge and is specifically trained on diverse medical imaging data.
