@@ -65,10 +65,12 @@ While SAM 3 shows impressive performance on natural images, we observed several 
   <img src="assets/radar.png" alt="Performance on diverse modalities" width="700"/>
 </div>
 
+
 2. **Systematic Misalignment Between Concept Prompts and Anatomical Target Regions in SAM 3**: liver vs lung? lesion vs non-lesion?
 <div align="center">
   <img src="assets/liver_to_lung.png" alt="Misalignment" width="700"/>
 </div>
+
 
 3. **Limited Semantic Discrimination of Fine-Grained Medical Terminology by SAM 3**: nuclei vs cell?
 <div align="center">
