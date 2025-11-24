@@ -1,7 +1,7 @@
 # MedSAM3
 MedSAM3: Delving into Segment Anything with Medical Concepts
 
-**🚧 Code, models, and paper coming soon! 🚧**
+**🚧 Code, model, paper, and guides will be released progressively! 🚧**
 
 ## Overview
 
