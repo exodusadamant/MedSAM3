@@ -41,12 +41,9 @@ MedSAM-3 is a text-promptable medical segmentation foundation model that enables
 - [ ] Release MedSAM-3 model weights
 - [ ] Release training code
 - [ ] Release inference code
-- [ ] Provide inference demo (Gradio/Colab)
 - [ ] Release evaluation scripts
 - [ ] Publish comprehensive documentation
 - [ ] Create tutorial notebooks
-- [ ] Expand to more medical imaging modalities
-- [ ] Release MedSAM-3 Agent code
 
 ## Tips and Future Directions
 We are continuously working to improve MedSAM-3:
@@ -57,21 +54,25 @@ We are continuously working to improve MedSAM-3:
 ## Discussion: SAM 3 Limitations on Medical Data
 While SAM 3 shows impressive performance on natural images, we observed several failure cases on medical imaging data:
 
+
+**Example Observations:**
+
+1. **Substantial Performance Discrepancy Between SAM 3 and Established Medical Segmentation Baselines**: Across all evaluated datasets, SAM 3 shows a large and unusual performance gap compared with standard medical segmentation models. This pattern is consistent across 2D, video, and 3D tasks. A representative example is the PROMISE12 dataset. Although PROMISE12 has clear anatomy and minimal semantic ambiguity, some are segmented reasonably well while many others fail severely among the 30 test cases
 <div align="center">
-  <img src="assets/sam3_failures.png" alt="SAM 3 Failure Cases" width="800"/>
+  <img src="assets/promise12.png" alt="MedSAM-3 Architecture" width="700"/>
 </div>
 
-**Example Failure Cases:**
+2. **Systematic Misalignment Between Concept Prompts and Anatomical Target Regions in SAM 3**: liver vs lung? lesion vs non-lesion?
+<div align="center">
+  <img src="assets/promise12.png" alt="MedSAM-3 Architecture" width="700"/>
+</div>
 
-1. **Low-Contrast Structures**: SAM 3 struggles with low-contrast anatomical structures common in medical images (e.g., soft tissue boundaries in ultrasound, subtle lesions in X-ray)
+3. **Limited Semantic Discrimination of Fine-Grained Medical Terminology by SAM 3**: nuclei vs cell?
+<div align="center">
+  <img src="assets/promise12.png" alt="MedSAM-3 Architecture" width="700"/>
+</div>
+......
 
-2. **Domain-Specific Concepts**: The model fails to understand medical-specific concepts without specialized training (e.g., differentiating between benign and malignant tumors, identifying specific pathological patterns)
-
-3. **Small Object Segmentation**: Fine-grained structures such as small lesions, blood vessels, or cellular structures are often missed or poorly segmented
-
-4. **Multi-Modal Adaptation**: SAM 3 shows inconsistent performance across different medical imaging modalities, particularly struggling with modalities that differ significantly from natural images (e.g., OCT, histopathology)
-
-5. **Ambiguous Boundaries**: Medical images often contain ambiguous or fuzzy boundaries that require domain expertise, which general-purpose models like SAM 3 cannot handle effectively
 
 These limitations motivate the development of MedSAM-3, which incorporates medical domain knowledge and is specifically trained on diverse medical imaging data.
 
