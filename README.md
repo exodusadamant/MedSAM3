@@ -14,7 +14,7 @@ MedSAM-3 is a text-promptable medical segmentation foundation model that enables
 - 🤖 **MedSAM-3 Agent**: Integrates MLLMs for complex reasoning
 - 📈 **SOTA Performance**: Outperforms existing models
 
-## Demo
+## Overview
 
 <div align="center">
   <img src="assets/overview.png" alt="MedSAM-3 Overview" width="800"/>
