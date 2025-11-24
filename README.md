@@ -1,46 +1,67 @@
 # MedSAM3
 MedSAM3: Delving into Segment Anything with Medical Concepts
 
-<div align="center">
+**🚧 Code, models, and paper coming soon! 🚧**
 
-[![Paper](https://img.shields.io/badge/Paper-arXiv-red)](your-arxiv-link)
-[![Code](https://img.shields.io/badge/Code-GitHub-green)](https://github.com/Joey-SLiu/MedSAM3)
-[![License](https://img.shields.io/badge/License-MIT-blue)](LICENSE)
+## Overview
 
-</div>
-
-## 📋 Overview
-
-MedSAM-3 is a text-promptable medical segmentation foundation model that enables **Promptable Concept Segmentation (PCS)** across diverse medical imaging modalities. By fine-tuning SAM 3 architecture on medical images with semantic conceptual labels, MedSAM-3 allows precise targeting of anatomical structures via open-vocabulary text descriptions.
+MedSAM-3 is a text-promptable medical segmentation foundation model that enables **Promptable Concept Segmentation (PCS)** across diverse medical imaging modalities (X-ray, MRI, Ultrasound, CT, OCT, Fundus, Dermoscopy, Histopathology, and video).
 
 ### Key Features
 
-- 🔤 **Text-Driven Segmentation**: Segment medical images using natural language descriptions (e.g., "pulmonary artery", "breast tumor")
-- 🎯 **Multi-Modal Support**: Works across X-ray, MRI, Ultrasound, CT, OCT, Fundus, Dermoscopy, Histopathology, and video
-- 🤖 **MedSAM-3 Agent**: Integrates MLLMs for complex reasoning and iterative refinement
-- 📈 **SOTA Performance**: Outperforms existing specialist and foundation models
+- 🔤 **Text-Driven Segmentation**: Segment using natural language (e.g., "breast tumor", "pulmonary artery")
+- 🎯 **Multi-Modal Support**: Works across 10+ medical imaging modalities
+- 🤖 **MedSAM-3 Agent**: Integrates MLLMs for complex reasoning
+- 📈 **SOTA Performance**: Outperforms existing models
 
-## 🎬 Demo
+## Demo
 
-<!-- 建议在这里放一张概览图，展示多模态分割效果 -->
 <div align="center">
   <img src="assets/overview.png" alt="MedSAM-3 Overview" width="800"/>
-  <p><i>Concept-driven medical image segmentation across multiple modalities</i></p>
+  <p><i>Concept-driven medical segmentation across multiple modalities</i></p>
 </div>
 
-<!-- 可以添加一个动图展示交互式分割 -->
-<!-- <img src="assets/demo.gif" alt="Interactive Segmentation" width="600"/> -->
-
-## 🏗️ Architecture
+## Architecture
 
 <div align="center">
   <img src="assets/architecture.png" alt="MedSAM-3 Architecture" width="700"/>
 </div>
 
-MedSAM-3 features a dual encoder-decoder transformer design with:
-- **Detector**: For image-level capabilities
-- **Tracker**: With memory module for video tasks
-- **Text & Image Encoders**: For aligned vision-language inputs
+## Performance
 
-## 🚀 Installation
-```bash
+| Dataset | U-Net | MedSAM | SAM 3 | **MedSAM-3** |
+|---------|-------|--------|-------|--------------|
+| BUSI | 0.7618 | 0.7514 | 0.7110 | **0.7772** |
+| RIM-ONE | 0.8480 | 0.8479 | 0.8303 | **0.8977** |
+| ISIC 2018 | 0.8760 | 0.9177 | 0.8178 | **0.9058** |
+| Kvasir-SEG | 0.8244 | 0.7657 | 0.7671 | **0.8831** |
+
+## Coming Soon
+
+- 📄 Paper
+- 💻 Code
+- 💾 Model weights
+- 📦 Installation guide
+- 📚 Documentation
+
+## Citation
+```bibtex
+@article{liu2025medsam3,
+  title={MedSAM-3: Delving into Segment Anything with Medical Concepts},
+  author={Liu, Anglin and Xue, Rundong and Cao, Xu R. and Shen, Yifan and Lu, Yi and Li, Xiang and Chen, Qianqian and Chen, Jintai},
+  journal={arXiv preprint},
+  year={2025}
+}
+```
+
+## Contact
+
+For questions, please contact:
+- Jintai Chen: jintaiCHEN@hkust-gz.edu.cn
+- Xu Cao: xucao2@illinois.edu
+
+---
+
+<div align="center">
+Made with ❤️ by the MedSAM-3 Team
+</div>
