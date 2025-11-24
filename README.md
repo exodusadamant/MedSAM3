@@ -36,6 +36,10 @@ MedSAM-3 is a text-promptable medical segmentation foundation model that enables
 | ISIC 2018 | 0.8760 | **0.9177** | 0.8178 | 0.9058 |
 | Kvasir-SEG | 0.8244 | 0.7657 | 0.7671 | **0.8831** |
 
+<div align="center">
+  <img src="assets/medsam_visual.png" alt="MedSAM-3 Visualization" width="700"/>
+</div>
+
 ## TODO List
 - [ ] Release paper on arXiv
 - [ ] Release MedSAM-3 model weights
