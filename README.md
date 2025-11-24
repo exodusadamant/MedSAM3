@@ -44,15 +44,6 @@ MedSAM-3 is a text-promptable medical segmentation foundation model that enables
 - 📦 Installation guide
 - 📚 Documentation
 
-## Citation
-```bibtex
-@article{liu2025medsam3,
-  title={MedSAM-3: Delving into Segment Anything with Medical Concepts},
-  author={Liu, Anglin and Xue, Rundong and Cao, Xu R. and Shen, Yifan and Lu, Yi and Li, Xiang and Chen, Qianqian and Chen, Jintai},
-  journal={arXiv preprint},
-  year={2025}
-}
-```
 
 ## Contact
 
