@@ -61,6 +61,9 @@ While SAM 3 shows impressive performance on natural images, we observed several 
 <div align="center">
   <img src="assets/promise12_nnUnet_vs_sam3_dice.png" alt="Performance on PROMISE12" width="700"/>
 </div>
+<div align="center">
+  <img src="assets/radar.png" alt="Performance on diverse modalities" width="700"/>
+</div>
 
 2. **Systematic Misalignment Between Concept Prompts and Anatomical Target Regions in SAM 3**: liver vs lung? lesion vs non-lesion?
 <div align="center">
