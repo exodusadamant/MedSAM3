@@ -30,7 +30,7 @@ MedSAM-3 is a text-promptable medical segmentation foundation model that enables
 ## MedSAM-3 Agent
 
 <div align="center">
-  <img src="assets/agent.png" alt="MedSAM-3 Architecture" width="700"/>
+  <img src="assets/agent.png" alt="MedSAM-3 Architecture" width="400"/>
 </div>
 
 ## Performance
