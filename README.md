@@ -10,7 +10,7 @@ MedSAM-3 is a text-promptable medical segmentation foundation model that enables
 ### Key Features
 
 - 🔤 **Text-Driven Segmentation**: Segment using natural language (e.g., "breast tumor", "pulmonary artery")
-- 🎯 **Multi-Modal Support**: Works across 10+ medical imaging modalities
+- 🎯 **Multi-Modal Support**: Works across diverse medical imaging modalities
 - 🤖 **MedSAM-3 Agent**: Integrates MLLMs for complex reasoning
 - 📈 **SOTA Performance**: Outperforms existing models
 
@@ -27,13 +27,19 @@ MedSAM-3 is a text-promptable medical segmentation foundation model that enables
   <img src="assets/architecture.png" alt="MedSAM-3 Architecture" width="700"/>
 </div>
 
+## MedSAM-3 Agent
+
+<div align="center">
+  <img src="assets/architecture.png" alt="MedSAM-3 Architecture" width="700"/>
+</div>
+
 ## Performance
 
 | Dataset | U-Net | MedSAM | SAM 3 | **MedSAM-3** |
 |---------|-------|--------|-------|--------------|
 | BUSI | 0.7618 | 0.7514 | 0.7110 | **0.7772** |
 | RIM-ONE | 0.8480 | 0.8479 | 0.8303 | **0.8977** |
-| ISIC 2018 | 0.8760 | 0.9177 | 0.8178 | **0.9058** |
+| ISIC 2018 | 0.8760 | **0.9177** | 0.8178 | 0.9058 |
 | Kvasir-SEG | 0.8244 | 0.7657 | 0.7671 | **0.8831** |
 
 ## Coming Soon
