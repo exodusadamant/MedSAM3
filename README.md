@@ -25,7 +25,7 @@ MedSAM-3 is a text-promptable medical segmentation foundation model that enables
 
 ## MedSAM-3 Agent
 <div align="center">
-  <img src="assets/agent.png" alt="MedSAM-3 Architecture" width="400"/>
+  <img src="assets/agent.png" alt="MedSAM-3 Agent" width="400"/>
 </div>
 
 ## Performance
@@ -59,17 +59,17 @@ While SAM 3 shows impressive performance on natural images, we observed several 
 
 1. **Substantial Performance Discrepancy Between SAM 3 and Established Medical Segmentation Baselines**: Across all evaluated datasets, SAM 3 shows a large and unusual performance gap compared with standard medical segmentation models. This pattern is consistent across 2D, video, and 3D tasks. A representative example is the PROMISE12 dataset. Although PROMISE12 has clear anatomy and minimal semantic ambiguity, some are segmented reasonably well while many others fail severely among the 30 test cases
 <div align="center">
-  <img src="assets/promise12.png" alt="MedSAM-3 Architecture" width="700"/>
+  <img src="assets/promise12_nnUnet_vs_sam3_dice.png" alt="Performance on PROMISE12" width="700"/>
 </div>
 
 2. **Systematic Misalignment Between Concept Prompts and Anatomical Target Regions in SAM 3**: liver vs lung? lesion vs non-lesion?
 <div align="center">
-  <img src="assets/promise12.png" alt="MedSAM-3 Architecture" width="700"/>
+  <img src="assets/liver_to_lung.png" alt="Misalignment" width="700"/>
 </div>
 
 3. **Limited Semantic Discrimination of Fine-Grained Medical Terminology by SAM 3**: nuclei vs cell?
 <div align="center">
-  <img src="assets/promise12.png" alt="MedSAM-3 Architecture" width="700"/>
+  <img src="assets/MoNuSeg_example.png" alt="Semantic Discrimination" width="700"/>
 </div>
 ......
 
