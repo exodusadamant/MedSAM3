@@ -1,6 +1,8 @@
 # MedSAM3
 MedSAM3: Delving into Segment Anything with Medical Concepts
 
+[![arXiv](https://img.shields.io/badge/arXiv-2511.19046-b31b1b.svg)](https://arxiv.org/abs/2511.19046)
+
 **🚧 Code, model, paper, and guides will be released progressively! 🚧**
 
 ## Overview
@@ -38,7 +40,7 @@ MedSAM-3 is a text-promptable medical segmentation foundation model that enables
 
 
 ## TODO List
-- [ ] Release paper on arXiv
+- [x] Release paper on arXiv ([Paper Link](https://arxiv.org/abs/2511.19046))
 - [ ] Release MedSAM-3 model weights
 - [ ] Release training code
 - [ ] Release inference code
@@ -81,8 +83,20 @@ While SAM 3 shows impressive performance on natural images, we observed several 
 
 These limitations motivate the development of MedSAM-3, which incorporates medical domain knowledge and is specifically trained on diverse medical imaging data.
 
+## Paper
+📄 **[MedSAM-3: Delving into Segment Anything with Medical Concepts](https://arxiv.org/abs/2511.19046)**
+
+If you find MedSAM-3 useful in your research, please consider citing:
+```bibtex
+@article{medsam3_2024,
+  title={MedSAM-3: Delving into Segment Anything with Medical Concepts},
+  author={[Authors]},
+  journal={arXiv preprint arXiv:2511.19046},
+  year={2024}
+}
+```
+
 ## Coming Soon
-- 📄 Paper
 - 💻 Code
 - 💾 Model weights
 - 📦 Installation guide
