@@ -50,6 +50,7 @@ MedSAM3 is a text-promptable medical segmentation foundation model that enables 
 
 ## Tips and Future Directions
 We are continuously working to improve MedSAM3:
+- 🎯 **Early-Stage Work**: MedSAM3 represents our initial exploration into SAM 3-based text-promptable medical segmentation. While it demonstrates promising capabilities across multiple modalities, we recognize there is substantial room for improvement in both performance and robustness
 - 📊 **Scaling Up**: We are progressively expanding the training data scale to cover more medical concepts and imaging modalities
 - 🔧 **Method Updates**: The model architecture and training strategies will be iteratively refined based on community feedback and new research findings
 - 🌐 **Towards Universal Medical Segmentation**: Our ultimate goal is to develop a universal medical image segmentation foundation model that can handle any anatomical structure or pathological finding across all medical imaging modalities
