@@ -15,7 +15,7 @@ MedSAM3 is a text-promptable medical segmentation foundation model that enables 
   <img src="assets/overview.png" alt="MedSAM3 Overview" width="800"/>
   <p><i>Concept-driven medical segmentation across multiple modalities</i></p>
 </div>
-### Key Features
+## Key Features
 - 🔤 **Text-Driven Segmentation**: Segment using natural language (e.g., "breast tumor", "pulmonary artery")
 - 🎯 **Multi-Modal Support**: Works across diverse medical imaging modalities
 - 🤖 **MedSAM3 Agent**: Integrates MLLMs for complex reasoning
