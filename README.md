@@ -3,6 +3,10 @@ MedSAM3: Delving into Segment Anything with Medical Concepts
 
 [![arXiv](https://img.shields.io/badge/arXiv-2511.19046-b31b1b.svg)](https://arxiv.org/abs/2511.19046)
 
+<div align="center">
+  <img src="assets/MedSAM3_github.jpg" alt="MedSAM3 Title Cover" width="800"/>
+</div>
+
 **🚧 Code, model, paper, and guides will be released progressively! 🚧**
 
 ## Overview
