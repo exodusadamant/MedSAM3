@@ -88,6 +88,10 @@ While SAM 3 shows impressive performance on natural images, we observed several 
 
 These limitations motivate the development of MedSAM3, which incorporates medical domain knowledge and is specifically trained on diverse medical imaging data.
 
+**Suggestions:**
+
+1. We performed a light fine-tuning of the mask decoder in the SAM 3 detector. However, additional experiments show that jointly fine-tuning the seg_head leads to substantially better performance. We will continue to investigate and improve these components in future work and update the paper at an appropriate time
+
 ## Paper
 📄 **[MedSAM3: Delving into Segment Anything with Medical Concepts](https://arxiv.org/abs/2511.19046)**
 
