@@ -87,14 +87,7 @@ These limitations motivate the development of MedSAM-3, which incorporates medic
 📄 **[MedSAM-3: Delving into Segment Anything with Medical Concepts](https://arxiv.org/abs/2511.19046)**
 
 If you find MedSAM-3 useful in your research, please consider citing:
-```bibtex
-@article{medsam3_2024,
-  title={MedSAM-3: Delving into Segment Anything with Medical Concepts},
-  author={[Authors]},
-  journal={arXiv preprint arXiv:2511.19046},
-  year={2024}
-}
-```
+coming soon.
 
 ## Coming Soon
 - 💻 Code
