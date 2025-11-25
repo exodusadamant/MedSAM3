@@ -11,18 +11,15 @@ MedSAM3: Delving into Segment Anything with Medical Concepts
 
 ## Overview
 MedSAM3 is a text-promptable medical segmentation foundation model that enables **Promptable Concept Segmentation (PCS)** across diverse medical imaging modalities (X-ray, MRI, Ultrasound, CT, OCT, Fundus, Dermoscopy, Histopathology, and video).
-
+<div align="center">
+  <img src="assets/overview.png" alt="MedSAM3 Overview" width="800"/>
+  <p><i>Concept-driven medical segmentation across multiple modalities</i></p>
+</div>
 ### Key Features
 - 🔤 **Text-Driven Segmentation**: Segment using natural language (e.g., "breast tumor", "pulmonary artery")
 - 🎯 **Multi-Modal Support**: Works across diverse medical imaging modalities
 - 🤖 **MedSAM3 Agent**: Integrates MLLMs for complex reasoning
 - 📈 **SOTA Performance**: Outperforms existing models
-
-## Overview
-<div align="center">
-  <img src="assets/overview.png" alt="MedSAM3 Overview" width="800"/>
-  <p><i>Concept-driven medical segmentation across multiple modalities</i></p>
-</div>
 
 ## Architecture
 <div align="center">
