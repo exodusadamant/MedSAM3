@@ -6,28 +6,28 @@ MedSAM3: Delving into Segment Anything with Medical Concepts
 **🚧 Code, model, paper, and guides will be released progressively! 🚧**
 
 ## Overview
-MedSAM-3 is a text-promptable medical segmentation foundation model that enables **Promptable Concept Segmentation (PCS)** across diverse medical imaging modalities (X-ray, MRI, Ultrasound, CT, OCT, Fundus, Dermoscopy, Histopathology, and video).
+MedSAM3 is a text-promptable medical segmentation foundation model that enables **Promptable Concept Segmentation (PCS)** across diverse medical imaging modalities (X-ray, MRI, Ultrasound, CT, OCT, Fundus, Dermoscopy, Histopathology, and video).
 
 ### Key Features
 - 🔤 **Text-Driven Segmentation**: Segment using natural language (e.g., "breast tumor", "pulmonary artery")
 - 🎯 **Multi-Modal Support**: Works across diverse medical imaging modalities
-- 🤖 **MedSAM-3 Agent**: Integrates MLLMs for complex reasoning
+- 🤖 **MedSAM3 Agent**: Integrates MLLMs for complex reasoning
 - 📈 **SOTA Performance**: Outperforms existing models
 
 ## Overview
 <div align="center">
-  <img src="assets/overview.png" alt="MedSAM-3 Overview" width="800"/>
+  <img src="assets/overview.png" alt="MedSAM3 Overview" width="800"/>
   <p><i>Concept-driven medical segmentation across multiple modalities</i></p>
 </div>
 
 ## Architecture
 <div align="center">
-  <img src="assets/architecture.png" alt="MedSAM-3 Architecture" width="700"/>
+  <img src="assets/architecture.png" alt="MedSAM3 Architecture" width="700"/>
 </div>
 
 ## MedSAM-3 Agent
 <div align="center">
-  <img src="assets/agent.png" alt="MedSAM-3 Agent" width="400"/>
+  <img src="assets/agent.png" alt="MedSAM3 Agent" width="400"/>
 </div>
 
 ## Performance
@@ -41,7 +41,7 @@ MedSAM-3 is a text-promptable medical segmentation foundation model that enables
 
 ## TODO List
 - [x] Release paper on arXiv ([Paper Link](https://arxiv.org/abs/2511.19046))
-- [ ] Release MedSAM-3 model weights
+- [ ] Release MedSAM3 model weights
 - [ ] Release training code
 - [ ] Release inference code
 - [ ] Release evaluation scripts
@@ -49,7 +49,7 @@ MedSAM-3 is a text-promptable medical segmentation foundation model that enables
 - [ ] Create tutorial notebooks
 
 ## Tips and Future Directions
-We are continuously working to improve MedSAM-3:
+We are continuously working to improve MedSAM3:
 - 📊 **Scaling Up**: We are progressively expanding the training data scale to cover more medical concepts and imaging modalities
 - 🔧 **Method Updates**: The model architecture and training strategies will be iteratively refined based on community feedback and new research findings
 - 🌐 **Towards Universal Medical Segmentation**: Our ultimate goal is to develop a universal medical image segmentation foundation model that can handle any anatomical structure or pathological finding across all medical imaging modalities
@@ -81,12 +81,12 @@ While SAM 3 shows impressive performance on natural images, we observed several 
 </div>
 
 
-These limitations motivate the development of MedSAM-3, which incorporates medical domain knowledge and is specifically trained on diverse medical imaging data.
+These limitations motivate the development of MedSAM3, which incorporates medical domain knowledge and is specifically trained on diverse medical imaging data.
 
 ## Paper
-📄 **[MedSAM-3: Delving into Segment Anything with Medical Concepts](https://arxiv.org/abs/2511.19046)**
+📄 **[MedSAM3: Delving into Segment Anything with Medical Concepts](https://arxiv.org/abs/2511.19046)**
 
-If you find MedSAM-3 useful in your research, please consider citing:
+If you find MedSAM3 useful in your research, please consider citing:
 coming soon.
 
 ## Coming Soon
@@ -102,5 +102,5 @@ For questions, please contact:
 
 ---
 <div align="center">
-Made with ❤️ by the MedSAM-3 Team
+Made with ❤️ by the MedSAM3 Team
 </div>
