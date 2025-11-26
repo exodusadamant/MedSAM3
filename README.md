@@ -105,11 +105,6 @@ If you find MedSAM3 useful in your research, please consider citing:
 }
 ```
 
-## Coming Soon
-- 💻 Code
-- 💾 Model weights
-- 📦 Installation guide
-- 📚 Documentation
 
 ## Contact
 For questions, please contact:
