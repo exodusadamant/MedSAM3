@@ -4,7 +4,7 @@
 
 <a href="https://arxiv.org/abs/2511.19046"><img src="https://img.shields.io/badge/arXiv-2511.19046-b31b1b.svg" alt="arXiv"></a>
 
-**[HKUST (GZ) Information Hub]()**
+**[HKUST (GZ) Information Hub](https://www.hkust-gz.edu.cn/academics/hubs-and-thrust-areas/information-hub/)**
 
 </div>
 
