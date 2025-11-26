@@ -1,11 +1,24 @@
-# MedSAM3
-MedSAM3: Delving into Segment Anything with Medical Concepts
-
-[![arXiv](https://img.shields.io/badge/arXiv-2511.19046-b31b1b.svg)](https://arxiv.org/abs/2511.19046)
-
 <div align="center">
-  <img src="assets/MedSAM3_github.jpg" alt="MedSAM3 Title Cover" width="800"/>
+<img src="assets/MedSAM3_github.jpg" alt="MedSAM3 Title Cover" width="800"/>
+<h1>MedSAM3: Delving into Segment Anything with Medical Concepts</h1>
+
+<a href="https://arxiv.org/abs/2511.19046"><img src="https://img.shields.io/badge/arXiv-2511.19046-b31b1b.svg" alt="arXiv"></a>
+
+**[HKUST (GZ) Information Hub]()**
+
 </div>
+
+```bibtex
+@article{liu2025medsam3delvingsegmentmedical,
+    title={MedSAM3: Delving into Segment Anything with Medical Concepts}, 
+    author={Anglin Liu and Rundong Xue and Xu R. Cao and Yifan Shen and Yi Lu and Xiang Li and Qianqian Chen and Jintai Chen},
+    year={2025},
+    eprint={2511.19046},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV},
+    url={https://arxiv.org/abs/2511.19046}, 
+}
+```
 
 **🚧 Code, model, paper, and guides will be released progressively! 🚧**
 
