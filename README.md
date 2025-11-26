@@ -8,17 +8,6 @@
 
 </div>
 
-```bibtex
-@article{liu2025medsam3delvingsegmentmedical,
-    title={MedSAM3: Delving into Segment Anything with Medical Concepts}, 
-    author={Anglin Liu and Rundong Xue and Xu R. Cao and Yifan Shen and Yi Lu and Xiang Li and Qianqian Chen and Jintai Chen},
-    year={2025},
-    eprint={2511.19046},
-    archivePrefix={arXiv},
-    primaryClass={cs.CV},
-    url={https://arxiv.org/abs/2511.19046}, 
-}
-```
 
 **🚧 Code, model, paper, and guides will be released progressively! 🚧**
 
@@ -104,7 +93,17 @@ These limitations motivate the development of MedSAM3, which incorporates medica
 📄 **[MedSAM3: Delving into Segment Anything with Medical Concepts](https://arxiv.org/abs/2511.19046)**
 
 If you find MedSAM3 useful in your research, please consider citing:
-coming soon.
+```bibtex
+@article{liu2025medsam3delvingsegmentmedical,
+    title={MedSAM3: Delving into Segment Anything with Medical Concepts}, 
+    author={Anglin Liu and Rundong Xue and Xu R. Cao and Yifan Shen and Yi Lu and Xiang Li and Qianqian Chen and Jintai Chen},
+    year={2025},
+    eprint={2511.19046},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV},
+    url={https://arxiv.org/abs/2511.19046}, 
+}
+```
 
 ## Coming Soon
 - 💻 Code
