@@ -94,14 +94,11 @@ These limitations motivate the development of MedSAM3, which incorporates medica
 
 If you find MedSAM3 useful in your research, please consider citing:
 ```bibtex
-@article{liu2025medsam3delvingsegmentmedical,
-    title={MedSAM3: Delving into Segment Anything with Medical Concepts}, 
-    author={Anglin Liu and Rundong Xue and Xu R. Cao and Yifan Shen and Yi Lu and Xiang Li and Qianqian Chen and Jintai Chen},
-    year={2025},
-    eprint={2511.19046},
-    archivePrefix={arXiv},
-    primaryClass={cs.CV},
-    url={https://arxiv.org/abs/2511.19046}, 
+@article{liu2025medsam3,
+  title={MedSAM3: Delving into Segment Anything with Medical Concepts},
+  author={Liu, Anglin and Xue, Rundong and Cao, Xu R and Shen, Yifan and Lu, Yi and Li, Xiang and Chen, Qianqian and Chen, Jintai},
+  journal={arXiv preprint arXiv:2511.19046},
+  year={2025}
 }
 ```
 
